@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode local state and build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Unused workspace left over from project creation
+/Untitled Project.xcodeproj/
+
+# Local secrets and signing assets
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision

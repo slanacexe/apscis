@@ -6,10 +6,26 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8FF2655E3069CD040093D193 /* apscisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF265573069C8310093D193 /* apscisApp.swift */; };
+		8FF2655F3069CD040093D193 /* PostFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF265583069C86C0093D193 /* PostFormat.swift */; };
+		8FF265603069CD040093D193 /* FontWeightOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF265593069C99B0093D193 /* FontWeightOption.swift */; };
+		8FF265613069CD040093D193 /* TextAlignmentOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2655A3069C9CE0093D193 /* TextAlignmentOption.swift */; };
+		8FF265623069CD040093D193 /* PostCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2655B3069C9FC0093D193 /* PostCanvas.swift */; };
+		8FF265633069CD040093D193 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2655C3069CAEB0093D193 /* ExportService.swift */; };
+		8FF265643069CD040093D193 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2655D3069CB5C0093D193 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* apscis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apscis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF265533069C7F80093D193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF265573069C8310093D193 /* apscisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apscisApp.swift; sourceTree = "<group>"; };
+		8FF265583069C86C0093D193 /* PostFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFormat.swift; sourceTree = "<group>"; };
+		8FF265593069C99B0093D193 /* FontWeightOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightOption.swift; sourceTree = "<group>"; };
+		8FF2655A3069C9CE0093D193 /* TextAlignmentOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentOption.swift; sourceTree = "<group>"; };
+		8FF2655B3069C9FC0093D193 /* PostCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCanvas.swift; sourceTree = "<group>"; };
+		8FF2655C3069CAEB0093D193 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		8FF2655D3069CB5C0093D193 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				8FF265573069C8310093D193 /* apscisApp.swift */,
+				8FF265583069C86C0093D193 /* PostFormat.swift */,
+				8FF265593069C99B0093D193 /* FontWeightOption.swift */,
+				8FF2655A3069C9CE0093D193 /* TextAlignmentOption.swift */,
+				8FF2655B3069C9FC0093D193 /* PostCanvas.swift */,
+				8FF2655C3069CAEB0093D193 /* ExportService.swift */,
+				8FF2655D3069CB5C0093D193 /* ContentView.swift */,
 				8FF265533069C7F80093D193 /* Assets.xcassets */,
 			);
 			path = apscis;
@@ -110,6 +132,13 @@
 		000000000000000120000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				8FF2655E3069CD040093D193 /* apscisApp.swift in Sources */,
+				8FF2655F3069CD040093D193 /* PostFormat.swift in Sources */,
+				8FF265603069CD040093D193 /* FontWeightOption.swift in Sources */,
+				8FF265613069CD040093D193 /* TextAlignmentOption.swift in Sources */,
+				8FF265623069CD040093D193 /* PostCanvas.swift in Sources */,
+				8FF265633069CD040093D193 /* ExportService.swift in Sources */,
+				8FF265643069CD040093D193 /* ContentView.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
@@ -252,10 +281,22 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFAJPF8V8;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = apscis;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -269,7 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbartolpersonalteam.apscis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -289,10 +330,22 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMFAJPF8V8;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = apscis;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -306,7 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanbartolpersonalteam.apscis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
