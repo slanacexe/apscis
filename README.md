@@ -1,6 +1,7 @@
 # apscis
 
-A native macOS app for creating minimal quote posts, built with SwiftUI.
+A native macOS app for creating minimal quote posts, built with SwiftUI. Feel free to use, develop and upgrade this
+app in any way. :)
 
 ## Features
 
